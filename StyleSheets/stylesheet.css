@@ -1,0 +1,50 @@
+html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+    }
+
+.banner {
+    background: url('Banner.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+
+    height: 332px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
+}
+
+.pure-g {
+    text-align: center;
+    font-family: sans-serif;
+    border: solid;
+    border-width: 1px;
+    background-color: #F4F5F3;
+}
+
+.l-box {
+    padding: 1em;
+}
+.hero {
+    text-align: center;
+}
+    .hero-titles {
+        font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        padding: 0 1em;
+        margin: 2em auto;
+        max-width: 768px;
+    }
+    .hero-site {
+        font-size: 400%;
+        font-weight: 200;
+        margin: 0;
+        color: #1f8dd6;
+    }
+    .hero-tagline {
+        font-size: 150%;
+        font-weight: 200;
+        line-height: 1.5;
+        margin: 0 0 1em;
+        color: #666;
+    }
