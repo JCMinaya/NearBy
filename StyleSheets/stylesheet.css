@@ -20,6 +20,10 @@ html, body, #map-canvas {
     background-color: #f2f2f2;
 }
 
+#places {
+    cursor: pointer;
+}
+
 #header_wrap {
     height: 10em;
   background: #212121;
