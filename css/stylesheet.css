@@ -41,7 +41,16 @@ a {
 	color: #3e3e3e;
 }
 
+.pure-g {
+	height: 100px;
+}
 
+.center {
+	text-align: center;
+	vertical-align: middle;
+	background: #313131;
+	color: #F9F7F0;
+}
 
 .clear {
 	clear: both;
@@ -234,3 +243,295 @@ a {
         margin: 0 0 1em;
         color: #A4A4A4;
     }
+
+/*Making it responsive*/
+
+@media screen and (max-width: 959px) { 
+
+.wrap {
+		width: 100%;
+		max-width: 640px;
+		min-width: 320px;
+		z-index: 10;
+		position: relative;
+		margin: 0 auto;
+		padding: 0;
+
+}
+
+.codeImg {
+	display: none;
+}
+
+.col-1-1, .col-1-3, .col-2-3, .col-1-2 {
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.inner {
+	width:90%;
+	padding:0 5%;
+}
+
+.section {
+
+	min-width: 320px;
+}
+
+.section .inner {
+	padding:20px 5%;
+}
+
+.sTop {
+	text-align: center;
+	padding: 15px 0;
+}
+
+
+
+.subMenu {
+	position: relative;
+	min-height: 50px;
+	z-index: 1000;
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	
+
+}
+
+.subMenu .inner {
+	width: 100% ;
+	padding: 0;	
+}
+.subNavBtn {
+	
+	font-size: 12px;
+	
+	
+
+}
+
+
+.s1, .s3 {
+	padding:  0px 0 0 0;
+}
+
+
+
+.logo{
+	margin:0;
+	width: 30%;
+}
+
+
+
+h1.hero-site {
+	font-size: 700%;
+}	
+
+h2.hero-tagline {
+	font-size: 200%;
+	font-weight: 400;
+}
+.s1, .s3, .s4, .s5 {
+	background-image: none;
+}
+
+}
+
+@media screen and (max-width: 640px) { 
+
+.logo{
+	width: 30%
+}
+.wrap {
+		
+		max-width: 480px;
+		
+
+}
+
+
+.sTop {
+	
+}
+
+.logo{
+	width: 30%;
+	height: auto;
+}
+
+.subNavBtn {
+	display: block;
+	height: 28px;
+	width: 21%;
+	float: left;
+	margin: 0px 0px 0 0;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 15px 2% 0 2%;
+	text-align: center;
+	
+
+}
+
+.twWrap {
+	right:none;
+	left:0;
+
+}
+
+.subMenu {
+	height: 90px;
+	/*top: 356px;*/
+	max-width: 480px;
+	
+}
+
+.homeNews {
+	padding: 120px 0 0 0;
+}
+
+}
+
+
+
+
+@media screen and(min-width: 330px) and (max-width: 480px) { 
+.wrap {
+		
+		max-width: 320px;
+		
+
+}
+.sTop {
+	
+}
+
+.s1 {
+	height: auto;
+	background-image: none;
+	}
+
+h1.title {
+	font-size: 28px;
+	width: 48%
+}
+
+
+.sTop .txtCenter h1, .sTop .txtCenter h2, .sTop .txtCenter p {
+	float: left;
+}
+
+.logo {
+	margin:0px 0 30px 0;
+	width:48%;
+	height: auto;
+	max-width: 271px;
+	float:left;
+
+	}
+
+	.subMenu {
+		top:290px;
+		max-width: 320px;
+	}
+
+.fxd{
+	top: none!!important;
+	
+	bottom:0!important;
+}
+
+p.header{
+	font-size: 32px;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 480px) { 
+.inner {
+	font-size: 16px;
+}
+.sTop {
+	
+}
+
+.s1 {
+	height: auto;
+	background-image: none;
+	}
+
+h1.title {
+	font-size: 28px;
+	width: 90%;
+	margin: 0 auto 15px auto;
+	float: none;
+	padding: 0;
+}
+
+
+.sTop .txtCenter h1, .sTop .txtCenter h2, .sTop .txtCenter p {
+	float: none;
+}
+
+
+.subNavBtn {
+	display: block;
+	height: 35px;
+	width: 21%;
+	float: left;
+	margin: 0px 0px 0 0;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 10px 2% 0 2%;
+	text-align: center;
+	line-height: 110%;
+	
+
+}
+
+
+.logo {
+	margin:0px 0 20px 0;
+	width:28%;
+	height: auto;
+	max-width: 271px;
+	float:none;
+
+	}
+
+	.subMenu {
+		/*top:290px;*/
+	}
+
+.fxd{
+	top: none!!important;
+	
+	bottom:0!important;
+}
+
+p.header{
+	font-size: 32px;
+}
+
+.s5 {
+	background-image: none;
+}
+
+}
+
+.smintLogo {
+	background: #e5e5e5;
+	width: 300px;
+	height: 250px;
+	float: right;
+	margin: 0 0 20px 20px;
+
+}
