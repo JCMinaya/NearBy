@@ -1,0 +1,209 @@
+* {margin: 0; padding: 0; outline: 0;}
+
+html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+}
+
+body {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	color: #e5e5e5;
+	font-size: 12px;
+	background:#bfbfbf;	
+}
+
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin:0 0 15px 0;
+}
+
+
+h1 {
+	font-size: 36px;
+	letter-spacing: -1px;
+	line-height: 100%;
+}
+
+
+h2 {
+	font-size: 24px;
+}
+
+
+p {
+	margin: 0 0 15px 0;
+}
+
+a {
+	color: #3e3e3e;
+}
+
+
+
+.clear {
+	clear: both;
+}
+.wrap {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 960px;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+
+
+.section {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 960px;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	height: 500px;
+}
+
+
+.inner {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 50px;
+	padding:30px 0;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.inner:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+}
+
+
+.subMenu {
+	height: 50px;
+	z-index: 1000;
+	width: 100%;
+	background: #7C0000;
+}
+
+.subMenu .inner {
+	padding:0;
+	font-weight: 400;
+	margin: 0 auto;
+}
+
+
+.subNavBtn {
+	display: block;
+	height: 35px;
+	width: 10%;
+	float: left;
+	margin: 0px 0px 0 0;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 15px 2% 0 2%;
+	text-align: center;
+	
+	color: #fff;
+}
+.subMenu a:hover {
+	background: #A40404;
+}
+
+.active {
+	background: #A40404;
+}
+.end {
+	margin: 0;
+}
+
+
+
+
+/* SECTIONS */
+.sTop {
+	min-height: 130px;
+	background:#fff;
+	color:#3d3d3d;
+	padding: 50px 0;
+	height: 300px;
+	
+}
+
+.s1 {
+	background:#F9F7F0;
+	color:#313131;
+	
+}
+
+
+.s2 {
+	background: #313131;
+}
+.s2 a {
+	color: #fff;
+}
+
+.s3 {
+	background: #313131;
+}
+
+
+.s4 {
+	background: #F9F7F0;
+	color: #313131;
+}
+
+
+
+.s5 {
+	background: #313131;
+	color: #fff;
+}
+
+.s6 {
+	background: #161616;
+}
+
+#header {
+	background: #212121;
+  	background: -moz-linear-gradient(top, #373737, #212121);
+  	background: -webkit-linear-gradient(top, #373737, #212121);
+  	background: -ms-linear-gradient(top, #373737, #212121);
+  	background: -o-linear-gradient(top, #373737, #212121);
+  	background: linear-gradient(top, #373737, #212121);
+}
+
+.sTop {
+    text-align: center;
+}
+    .hero-titles {
+        font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        padding: 0 1em;
+        margin: 0 auto;
+        max-width: 768px;
+    }
+    .hero-site {
+        margin: 0;
+        color: #fff;
+        font-size: 800%;
+        font-weight: 700;
+        text-shadow: #111 0px 0px 10px;
+    }
+    .hero-tagline {
+        font-size: 300%;
+        font-weight: 200;
+        line-height: 1.5;
+        margin: 0 0 1em;
+        color: #A4A4A4;
+    }
