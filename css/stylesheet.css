@@ -42,14 +42,23 @@ a {
 }
 
 .pure-g {
-	height: 100px;
+	height: 100%;
+}
+.pure-u-1-3 {
+    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+    text-align: center;
+    padding: 2em 0px;
+    background: #999999;
+    color: #313131;
+    margin: 1px;
+    cursor: pointer;
+}
+.pure-u-1-3:hover {
+	background: #B3B3B3;
 }
 
 .center {
-	text-align: center;
-	vertical-align: middle;
-	background: #313131;
-	color: #F9F7F0;
+	margin: auto;
 }
 
 .clear {
@@ -75,7 +84,7 @@ a {
 	z-index: 10;
 	position: relative;
 	margin: 0 auto;
-	padding: 0 0 20px 0;
+	padding: 0 0 0px 0;
 	height: 500px;
 }
 
@@ -468,12 +477,15 @@ p.header{
 	background-image: none;
 	}
 
-h1.title {
-	font-size: 28px;
+h1.hero-site {
+	font-size: 600%;
 	width: 90%;
 	margin: 0 auto 15px auto;
 	float: none;
 	padding: 0;
+}
+h2.hero-tagline {
+	font-size: 150%;
 }
 
 
