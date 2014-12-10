@@ -113,10 +113,6 @@ a {
 	padding:0 30px 0 0;
 }
 
-.txtcenter {
-	text-align: center;
-}
-
 .subMenu {
 	height: 50px;
 	z-index: 1000;
@@ -130,6 +126,9 @@ a {
 	margin: 0 auto;
 }
 
+.subMenu {
+
+}
 
 .subNavBtn {
 	display: block;
