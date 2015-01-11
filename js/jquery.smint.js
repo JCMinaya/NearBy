@@ -15,7 +15,7 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 
 (function(){
 
-
+	
 	$.fn.smint = function( options ) {
 
 		var settings = $.extend({
@@ -189,10 +189,12 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
                     return false;
                 }
 
-			});	
+			});
+
 		});
 
 	};
-
+	
 	$.fn.smint.defaults = { 'scrollSpeed': 500, 'mySelector': 'div'};
+
 })(jQuery);
