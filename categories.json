@@ -1,0 +1,15 @@
+data={
+	"Restaurants": [
+		{"id": "000", "name": "Adrian Tropical"},
+		{"id": "001", "name": "Chef Pepper"},
+		{"id": "002", "name": "Chilli's"}
+		],
+	"Hotels & Resorts": [],
+	"Malls": [],
+	"National Parks": [],
+	"Fast Food": [],
+	"Movie Theaters": [],
+	"Beachs": [],
+	"HangOuts": [],
+	"Others": [{}]
+}
