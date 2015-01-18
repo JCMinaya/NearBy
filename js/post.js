@@ -13,17 +13,17 @@ $(document).ready(function() {
 	       type: 'GET',
 	        url: url,
 	        async: false,
-	        contentType: "application/json",
+	        contentType: 'application/json',
 	        dataType: 'jsonp',
 	        complete: function(json) {
-		    
+		    	console.log(data);
 			    $.each( data, function( key, val ) {
 		  			if (element == key) {
 		  				console.log(key);
 		  				console.log(val);
 		  			};
 		  		});
-		    },
+		    }
 	    });
 		/*$.getJSON( "http://localhost/categories.json/callback=?", function( data ) {
 		  	var items = [];
