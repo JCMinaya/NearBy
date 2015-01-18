@@ -8,7 +8,7 @@ $(document).ready(function() {
 			optional stuff to do after success 
 			alert(data);*/
 		element = $(this).html();
-		var url = 'http://localhost/categories.json';
+		var url = 'https://raw.githubusercontent.com/JCMinaya/NearBy/gh-pages/categories.json';
 	    $.ajax({
 	       type: 'GET',
 	        url: url,
