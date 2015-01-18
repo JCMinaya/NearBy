@@ -1,4 +1,4 @@
-data={
+data({
 	"Restaurants": [
 		{"id": "000", "name": "Adrian Tropical"},
 		{"id": "001", "name": "Chef Pepper"},
@@ -12,4 +12,4 @@ data={
 	"Beachs": [],
 	"HangOuts": [],
 	"Others": [{}]
-}
+});
