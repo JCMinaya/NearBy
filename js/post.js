@@ -2,8 +2,9 @@ $(document).ready(function() {
 	var element;
 	$('.pure-u-1-3').click( function() {
 		
-		$("#div-s2").html = "";
+		
 		element = $(this).html();
+		$("#selected").html(element);
 		var url = 'https://raw.githubusercontent.com/JCMinaya/NearBy/gh-pages/categories.json';
 	    $.ajax({
 	       type: 'GET',
@@ -12,6 +13,7 @@ $(document).ready(function() {
 	        contentType: 'application/json',
 	        dataType: 'jsonp',
 	        complete: function(json) {
+	        	$("#div-s2").html("");
 			    $.each( data, function( key, val ) {
 		  			if (element == key) {
 		  				console.log(key);
@@ -19,7 +21,7 @@ $(document).ready(function() {
 		  				val.forEach(function(objects) {
 		  					console.log(objects.name );
 		  					$("#div-s2").append('<div id='+i+
-		  						' class="pure-u-1-3 intLink bb" href="#s3">'+objects.name+
+		  						' class="pure-u-1-3 intLink bb style" href="#s3">'+objects.name+
 		  						'</div>');
 		  					i++;
 		  				});

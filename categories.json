@@ -7,7 +7,7 @@ data={
 		{"id": "004", "name": "Applebee's"},
 		{"id": "005", "name": "Laurel"}
 		],
-	"Hotels & Resorts": [
+	"Hotels/Resorts": [
 		{"id": "000", "name": "Hotel Jaragua"},
 		{"id": "001", "name": "Hotel 5to Centenario"},
 		{"id": "002", "name": "Coral Costa Caribe"},
@@ -22,7 +22,15 @@ data={
 		{"id": "003", "name": "Bella Vista Mall"},
 		{"id": "004", "name": "Diamond Mall"},
 		{"id": "005", "name": "Sambil"}
-	                    ],
+	    ],
+	"Monuments": [
+		{"id": "000", "name": ""},
+		{"id": "001", "name": ""},
+		{"id": "002", "name": ""},
+		{"id": "003", "name": ""},
+		{"id": "004", "name": ""},
+		{"id": "005", "name": ""}
+	    ],
 	"National Parks": [
 		{"id": "000", "name": "Jardín Botánico"},
 		{"id": "001", "name": "Parque Nacional Armando Bermúdez"},
