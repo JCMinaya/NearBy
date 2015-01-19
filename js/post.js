@@ -21,7 +21,7 @@ $(document).ready(function() {
 		  				val.forEach(function(objects) {
 		  					console.log(objects.name );
 		  					$("#div-s2").append('<div id='+i+
-		  						' class="pure-u-1-3 intLink bb style" href="#s3">'+objects.name+
+		  						' class="style pure-u-1-3 intLink bb" href="#s3">'+objects.name+
 		  						'</div>');
 		  					i++;
 		  				});
