@@ -5,11 +5,7 @@ data={
 		{"id": "002", "name": "Chilli's"},
 		{"id": "003", "name": "Fridays"},
 		{"id": "004", "name": "Applebee's"},
-		{"id": "005", "name": "Laurel"},
-		{"id": "006", "name": ""},
-		{"id": "007", "name": ""},
-		{"id": "008", "name": ""},
-		{"id": "009", "name": ""}
+		{"id": "005", "name": "Laurel"}
 		],
 	"Hotels & Resorts": [
 		{"id": "000", "name": "Hotel Jaragua"},
@@ -17,11 +13,7 @@ data={
 		{"id": "002", "name": "Coral Costa Caribe"},
 		{"id": "003", "name": "Hotel Santo Domingo"},
 		{"id": "004", "name": "Hotel Embajador"},
-		{"id": "005", "name": "Barceló"},
-		{"id": "006", "name": ""},
-		{"id": "007", "name": ""},
-		{"id": "008", "name": ""},
-		{"id": "009", "name": ""}
+		{"id": "005", "name": "Barceló"}
 		],
 	"Malls": [
 		{"id": "000", "name": "Ágora Mall"},
@@ -29,23 +21,14 @@ data={
 		{"id": "002", "name": "Galería 360"},
 		{"id": "003", "name": "Bella Vista Mall"},
 		{"id": "004", "name": "Diamond Mall"},
-		{"id": "005", "name": "Sambil"},
-		{"id": "006", "name": ""},
-		{"id": "007", "name": ""},
-		{"id": "008", "name": ""},
-		{"id": "009", "name": ""}
+		{"id": "005", "name": "Sambil"}
 	                    ],
 	"National Parks": [
 		{"id": "000", "name": "Jardín Botánico"},
 		{"id": "001", "name": "Parque Nacional Armando Bermúdez"},
 		{"id": "002", "name": "Parque Nacional de los Haitises"},
 		{"id": "003", "name": "Parque Nacional del Este"},
-		{"id": "004", "name": "Parque Nacional José del Carmen Ramírez"},
-		{"id": "005", "name": ""},
-		{"id": "006", "name": ""},
-		{"id": "007", "name": ""},
-		{"id": "008", "name": ""},
-		{"id": "009", "name": ""}
+		{"id": "004", "name": "Parque Nacional José del Carmen Ramírez"}
 		],
 	"Fast Food": [
 		{"id": "000", "name": "Mcdonalds"},
@@ -54,10 +37,7 @@ data={
 		{"id": "003", "name": "Yokomo Sushi"},
 		{"id": "004", "name": "3 Mariachis"},
 		{"id": "005", "name": "Yao"},
-		{"id": "006", "name": "Taco Bell"},
-		{"id": "007", "name": ""},
-		{"id": "008", "name": ""},
-		{"id": "009", "name": ""}
+		{"id": "006", "name": "Taco Bell"}
 		],
 	"Movie Theaters": [
 		{"id": "000", "name": "Isfapol(verificar nombre)"},
@@ -67,9 +47,7 @@ data={
 		{"id": "004", "name": "Galería 360"},
 		{"id": "005", "name": "Ágora Mall"},
 		{"id": "006", "name": "Sambil"},
-		{"id": "007", "name": "Blue Mall"},
-		{"id": "008", "name": ""},
-		{"id": "009", "name": ""}
+		{"id": "007", "name": "Blue Mall"}
 		],
 	"Beachs": [
 		{"id": "000", "name": "Hemmingway"},
@@ -77,11 +55,7 @@ data={
 		{"id": "002", "name": "Palenque"},
 		{"id": "003", "name": "Juan Dolio"},
 		{"id": "004", "name": "Playa Caribe"},
-		{"id": "005", "name": "Guayacanes"},
-		{"id": "006", "name": ""},
-		{"id": "007", "name": ""},
-		{"id": "008", "name": ""},
-		{"id": "009", "name": ""}
+		{"id": "005", "name": "Guayacanes"}
 		],
 	"HangOuts": [
 		{"id": "000", "name": "Shots Bar"},
@@ -90,10 +64,7 @@ data={
 		{"id": "003", "name": "Londombox Bar"},
 		{"id": "004", "name": "Barcito Bar"},
 		{"id": "005", "name": "Parqueo"},
-		{"id": "006", "name": "Quintana Bar"},
-		{"id": "007", "name": ""},
-		{"id": "008", "name": ""},
-		{"id": "009", "name": ""}
+		{"id": "006", "name": "Quintana Bar"}
 		],
 	"Others": [
 		{"id": "000", "name": "La Sirena"},
