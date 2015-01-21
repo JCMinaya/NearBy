@@ -1,7 +1,8 @@
+var map;
 function initialize() {
 
   var markers = [];
-  var map = new google.maps.Map(document.getElementById('map-canvas'), {
+  map = new google.maps.Map(document.getElementById('map-canvas'), {
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
@@ -74,11 +75,12 @@ function initialize() {
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
-function Marker(myLatlng, place) {
-	var marker = new google.maps.Marker({
-		position: myLatlng,
+function Marker(myLatlng, placeName) {
+	var myMarker = new google.maps.Marker({
 		map: map,
-		title:place
+		position: myLatlng,
+		animation: google.maps.Animation.BOUNCE,
+		title:placeName
 	});
 	map.setCenter(myLatlng);
 }

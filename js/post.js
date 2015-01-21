@@ -29,12 +29,12 @@ $(document).ready(function() {
 		  					i++;
 		  				});
 		  				$("#div-s2").on('click', '.style', function(event) {
-		  					var place = val[event.target.id].name;
-			  				console.log(place);
+		  					var placeName = val[event.target.id].name;
+			  				console.log(placeName);
 			  				//var x = val[event.target.id].x;
 			  				//var y = val[event.target.id].y;
 			  				var myLatlng = new google.maps.LatLng(18.483488,-69.939268);
-				  			Marker(myLatlng, place);
+				  			Marker(myLatlng, placeName);
 				  		});
 		  			};
 		  		});
