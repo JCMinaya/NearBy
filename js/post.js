@@ -23,7 +23,7 @@ $(document).ready(function() {
 		  				val.forEach(function(objects) {
 		  					console.log(objects.name );
 		  					places[i] = $('<div id="'+i+
-		  						'" class="style pure-u-1-3 intLink bb" href="#s3">'+objects.name+
+		  						'" class="style pure-u-1-3 bb" href="#s3">'+objects.name+
 		  						'</div>');
 		  					$("#div-s2").append(places[i]);
 		  					i++;
@@ -31,9 +31,9 @@ $(document).ready(function() {
 		  				$("#div-s2").on('click', '.style', function(event) {
 		  					var placeName = val[event.target.id].name;
 			  				console.log(placeName);
-			  				//var x = val[event.target.id].x;
-			  				//var y = val[event.target.id].y;
-			  				var myLatlng = new google.maps.LatLng(18.483488,-69.939268);
+			  				var x = val[event.target.id].latitud;
+			  				var y = val[event.target.id].longitud;
+			  				var myLatlng = new google.maps.LatLng(x, y);
 				  			Marker(myLatlng, placeName);
 				  		});
 		  			};
