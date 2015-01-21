@@ -5,9 +5,15 @@ function initialize() {
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
+  	/*var myLatlng = new google.maps.LatLng(18.487875900, -69.962292000);
+	var mapOptions = {
+	  zoom: 18,
+	  center: myLatlng
+	}*/
+
   var defaultBounds = new google.maps.LatLngBounds(
-      new google.maps.LatLng(-33.8902, 151.1759),
-      new google.maps.LatLng(-33.8474, 151.2631));
+      new google.maps.LatLng(18.489, -69.962292000),
+      new google.maps.LatLng(18.487, -69.9622));
   map.fitBounds(defaultBounds);
 
   // Create the search box and link it to the UI element.
