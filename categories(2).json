@@ -1,0 +1,96 @@
+﻿data={
+	"Restaurants": [
+		{"id": "0", "name": "Adrian Tropical", "latitud": 18.460675, "longitud": -69.903558},
+		{"id": "1", "name": "Chef Pepper", "latitud": 19.460366, "longitud": -70.689654},
+		{"id": "2", "name": "Chilli's", "latitud": 18.453778, "longitud": -69.942959},
+		{"id": "3", "name": "Fridays", "latitud": 18.469255, "longitud": -69.939228},
+		{"id": "4", "name": "Applebee's", "latitud": 18.475597, "longitud": -69.926975},
+		{"id": "5", "name": "Laurel", "latitud": 18.472285, "longitud": -69.935117},
+		{"id": "6", "name": "La Taberna Vasca", "latitud": 18.475145, "longitud": -69.885791},
+		{"id": "7", "name": "El Conuco", "latitud": 18.466021, "longitud": -69.900781},
+		{"id": "8", "name": "La Briciola", "latitud": 18.472174, "longitud": -69.884332}, 
+		{"id": "9", "name": "El Meson de la Cava", "latitud": 18.453245, "longitud": -69.933367}
+		],	
+	"Hotels/Resorts": [
+		{"id": "0", "name": "Hotel Jaragua", "latitud": 18.462473, "longitud": -69.899837},
+		{"id": "1", "name": "Hotel 5to Centenario", "latitud": 18.463883, "longitud": "-69.896090"},
+		{"id": "2", "name": "Coral Costa Caribe", "latitud": 18.426917, "longitud": -69.412540},
+		{"id": "3", "name": "Hotel Santo Domingo", "latitud": 18.453080, "longitud": -69.924640},
+		{"id": "4", "name": "Hotel Embajador", "latitud": 18.455471, "longitud": -69.932858},
+		{"id": "5", "name": "Barceló", "latitud": 18.733484, "longitud": -68.472386}
+		],
+	"Malls": [
+		{"id": "0", "name": "Ágora Mall", "latitud": 18.483705, "longitud": -69.939802},
+		{"id": "1", "name": "Blue Mall", "latitud": 18.472761, "longitud": -69.940998},
+		{"id": "2", "name": "Galería 360", "latitud": 18.484906, "longitud": -69.936535},
+		{"id": "3", "name": "Bella Vista Mall", "latitud": 18.453422, "longitud": -69.941487},
+		{"id": "4", "name": "Diamond Mall", "latitud": 18.486610, "longitud": -69.941076},
+		{"id": "5", "name": "Sambil", "latitud": 18.482919, "longitud": -69.912228}
+	    ],
+	"Monuments": [
+		{"id": "0", "name": "", "latitud": "", "longitud": ""},
+		{"id": "1", "name": "", "latitud": "", "longitud": ""},
+		{"id": "2", "name": "", "latitud": "", "longitud": ""},
+		{"id": "3", "name": "", "latitud": "", "longitud": ""},
+		{"id": "4", "name": "", "latitud": "", "longitud": ""},
+		{"id": "5", "name": "", "latitud": "", "longitud": ""}
+	    ],
+	"National Parks": [
+		{"id": "0", "name": "Jardín Botánico", "latitud": 18.493814, "longitud": -69.953142},
+		{"id": "1", "name": "Parque Nacional Armando Bermúdez", "latitud": 19.175674, "longitud": -71.049552},
+		{"id": "2", "name": "Parque Nacional de los Haitises", "latitud": 19.017877, "longitud": -69.621317},
+		{"id": "3", "name": "Parque Nacional del Este", "latitud": 18.300705, "longitud": -68.691092},
+		{"id": "4", "name": "Parque Nacional José del Carmen Ramírez", "latitud": 19.003147, "longitud": -71.144348}
+		],
+	"Fast Food": [
+		{"id": "0", "name": "Mcdonalds", "latitud": 18.458642, "longitud": -69.932761},
+		{"id": "1", "name": "Burger King", "latitud": 18.487346, "longitud": -69.942247},
+		{"id": "2", "name": "Barra Payán", "latitud": 18.478677, "longitud": -69.898668},
+		{"id": "3", "name": "Yokomo Sushi", "latitud": 18.469016, "longitud": -69.900285},
+		{"id": "4", "name": "3 Mariachis", "latitud": 18.468294, "longitud": -69.934073},
+		{"id": "5", "name": "Yao", "latitud": 18.452006, "longitud": -69.9511},
+		{"id": "6", "name": "Taco Bell", "latitud": 18.47188, "longitud": -69.940869}
+		],
+	"Movie Theaters": [
+		{"id": "0", "name": "Isfapol(verificar nombre)", "latitud": "", "longitud": ""},
+		{"id": "1", "name": "Blue Mall", "latitud": 18.472761, "longitud": -69.940998},
+		{"id": "2", "name": "Bella Vista Mall", "latitud": 18.453422, "longitud": -69.941487},
+		{"id": "3", "name": "Diamond Mall", "latitud": 18.486610, "longitud": -69.941076},
+		{"id": "4", "name": "Galería 360", "latitud": 18.484906, "longitud": -69.936535},
+		{"id": "5", "name": "Ágora Mall", "latitud": 18.483705, "longitud": -69.939802},
+		{"id": "6", "name": "Sambil", "latitud": 18.482919, "longitud": -69.912228}
+		],
+	"Beachs": [
+		{"id": "0", "name": "Hemmingway", "latitud": 18.427613, "longitud": -69.398203},
+		{"id": "1", "name": "Boca Chica", "latitud": 18.451982, "longitud": -69.609741},
+		{"id": "2", "name": "Palenque", "latitud": 18.235611, "longitud": -70.154550},
+		{"id": "3", "name": "Juan Dolio", "latitud": 18.423597, "longitud": -69.425842},
+		{"id": "4", "name": "Playa Caribe", "latitud": 18.408449, "longitud": -69.500467},
+		{"id": "5", "name": "Guayacanes", "latitud": 18.420375, "longitud": -69.450666},
+		{"id": "6", "name": "Esmeralda", "latitud": 18.422330, "longitud": -69.449550},
+		{"id": "7", "name": "Montesinos", "latitud": 18.468583, "longitud": -69.885690},
+		{"id": "8", "name": "Playa de Guibia", "latitud": 18.458895, "longitud": -69.905732},
+		{"id": "9", "name": "Playa Real", "latitud": 18.426807, "longitud": -69.397330}
+		],
+	"HangOuts": [
+		{"id": "0", "name": "Shots Bar", "latitud": 18.472931, "longitud": -69.925421},
+		{"id": "1", "name": "Praia Disco", "latitud": 18.475282, "longitud": -69.930843},
+		{"id": "2", "name": "Comics Disco", "latitud": 18.475316, "longitud": -69.930560},
+		{"id": "3", "name": "Londombox Bar", "latitud": 18.474887, "longitud": -69.936135},
+		{"id": "4", "name": "Barcito Bar", "latitud": 18.475399, "longitud": -69.930167},
+		{"id": "5", "name": "Parqueo", "latitud": 18.474887, "longitud": -69.936135},
+		{"id": "6", "name": "Quintana Bar", "latitud": 18.477576, "longitud": -69.883574}
+		],
+	"Others": [
+		{"id": "0", "name": "La Sirena", "latitud": 18.473184, "longitud": -69.942478},
+		{"id": "1", "name": "Jumbo Luperón", "latitud": 18.463444, "longitud": -69.967152},
+		{"id": "2", "name": "Teatro Nacional", "latitud": 18.471017, "longitud": -69.910843},
+		{"id": "3", "name": "Supermercados Bravo", "latitud": 18.465364, "longitud": -69.958962},
+		{"id": "4", "name": "Zona Colonial", "latitud": 18.472745, "longitud": -69.887048},
+		{"id": "5", "name": "Club Naco", "latitud": 18.480714, "longitud": -69.925747},
+		{"id": "6", "name": "Country Club", "latitud": 18.480714, "longitud": -69.925747},
+		{"id": "7", "name": "Club Arroyo Hondo", "latitud": 18.498235, "longitud": -69.936647},
+		{"id": "8", "name": "Casa de España", "latitud": 18.428576, "longitud": -69.976962},
+		{"id": "9", "name": "Acuario", "latitud": 18.468557, "longitud": -69.850634}
+		]
+}
