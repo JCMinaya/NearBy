@@ -1,45 +1,16 @@
 $(document).ready(function() {
 
-	var categoriesArray = [];
-	var places = [];
 	$.getJSON('https://api.foursquare.com/v2/venues/categories?client_id=ZE0XEDIKNEL33HPJDN0OQF0UTJ1M2XC4H5SAIENPW1QTGBEG&client_secret=J5FTWC2W1PST12EC34BKSKSUXUAJAJXADKM5SEHBAOSFLM3K&v=20130815&ll=40.7,-74',
 	    function(data) {
 	    	console.log(data);
-
-	        $.each(data.response.categories, function(i,categories){
-	        	categoriesArray[i] = $('<div id='+i+' class="pure-u-1-3 intLink wb" href="#s2">'+categories.name+'</div>');
-	            $('#div-s1').append(categoriesArray[i]);
-	        });
-	        
-	        $('.pure-u-1-3').click( function() {
-	        	$("#div-s2").html("");
-		        var myID = $(this).attr('id');
-		        var categoryID = data.response.categories[myID].id;
-		        $.getJSON('https://api.foursquare.com/v2/venues/search?limit=24&near=DO&categoryId='+categoryID+
-		        	'&client_id=ZE0XEDIKNEL33HPJDN0OQF0UTJ1M2XC4H5SAIENPW1QTGBEG'+
-		        	'&client_secret=J5FTWC2W1PST12EC34BKSKSUXUAJAJXADKM5SEHBAOSFLM3K&v=20130815', 
-		        	function(data) {
-	        			console.log(data);
-	        			$.each(data.response.venues, function(i, venues){
-	        				places[i] = $('<div id="'+i+
-		  								  '" class="style pure-u-1-3 bb" href="#s3">'+venues.name+
-		  								  '</div>');
-		  					$("#div-s2").append(places[i]);
-	        			});
-	        		$('.pure-u-1-3').click( function() {
-	        			var placeID = $(this).attr('id');
-	        			var venueSelected = data.response.venues[placeID];
-	        			var x = venueSelected.location.lat;
-	        			var y = venueSelected.location.lng;
-			        	var myLatlng = new google.maps.LatLng(x, y);
-					 	Marker(myLatlng, venueSelected.name);
-			        });
-	        	});
+	        $.each(data.response.venues, function(i,venues){
+	        	console.log(venues.name);
+	            
 	        });
 	    });
+
 	$(this).scrollTop(0);
-	
-	/*var category;
+	var category;
 	$('.pure-u-1-3').click( function() {
 		
 		//Getting the category clicked
@@ -80,7 +51,7 @@ $(document).ready(function() {
 		  		});
 		  	}
 	    });
-	});*/
+	});
 
 	$('.subMenu').smint({
     	'scrollSpeed' : 1000
